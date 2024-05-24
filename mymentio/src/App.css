@@ -1,0 +1,226 @@
+.otp-page-child {
+  position: absolute;
+  width: 100%;
+  top: 43px;
+  right: 0;
+  left: 0;
+  background-color: var(--faint-blue);
+  height: 94px;
+}
+.frame-child {
+  width: 72px;
+  position: relative;
+  border-radius: 50%;
+  height: 72px;
+  object-fit: cover;
+}
+.otp-page-inner {
+  position: absolute;
+  top: 43px;
+  left: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.site-name {
+  position: relative;
+  font-weight: 800;
+}
+.site-name-wrapper {
+  position: absolute;
+  top: 60px;
+  left: 89px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-13xl);
+}
+.log-in {
+  position: relative;
+}
+.log-in-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 64px;
+  left: 1199px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  color: inherit;
+}
+.get-started {
+  position: relative;
+  font-weight: 800;
+}
+.get-started-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 67px;
+  left: 1338px;
+  background-color: var(--color-darkslateblue);
+  width: 157px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  color: var(--color-gainsboro);
+}
+.span {
+  color: var(--color-black);
+}
+.capstonealtgmailcom {
+  font-weight: 800;
+}
+.opt-has-been-container {
+  position: relative;
+}
+.opt-has-been-sent-to-capstonea-wrapper {
+  position: absolute;
+  top: 292px;
+  left: 477px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.opt {
+  position: relative;
+  font-weight: 600;
+}
+.opt-wrapper {
+  position: absolute;
+  top: 380px;
+  left: 461px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  color: var(--color-darkslateblue);
+}
+.resend-opt {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  white-space: pre-wrap;
+}
+.resend-opt-wrapper {
+  position: absolute;
+  top: 571px;
+  left: 977px;
+  border: 1px solid var(--faint-blue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslateblue);
+}
+.didnt-receive-a {
+  position: relative;
+  white-space: pre-wrap;
+}
+.didnt-receive-a-code-wrapper {
+  position: absolute;
+  top: 604px;
+  left: 445px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-base);
+}
+.send-sms {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.mins-left,
+.send-sms-wrapper {
+  position: absolute;
+  font-size: var(--font-size-base);
+}
+.send-sms-wrapper {
+  top: 643px;
+  left: 449px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.mins-left {
+  top: 542px;
+  left: 987px;
+  font-weight: 500;
+}
+.frame-child1,
+.frame-child2,
+.frame-inner,
+.frame-input,
+.frame-item {
+  border: 1px solid var(--color-darkslateblue);
+  outline: 0;
+  background-color: transparent;
+  width: 74px;
+  position: relative;
+  box-sizing: border-box;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent {
+  position: absolute;
+  top: 451px;
+  left: 471px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.about-us,
+.blogs,
+.contact-us,
+.faqs,
+.home {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.home-parent {
+  position: absolute;
+  top: 72px;
+  left: 427px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.otp-page {
+  width: 1512px;
+  background-color: var(--surface-primary);
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
